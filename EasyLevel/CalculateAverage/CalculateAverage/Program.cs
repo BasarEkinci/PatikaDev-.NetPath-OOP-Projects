@@ -10,6 +10,12 @@ namespace CalculateAverage
     {
         static void Main(string[] args)
         {
+            Console.Write("Enter the depth of Fibonacci Series: ");
+            int depth = int.Parse(Console.ReadLine());
+
+            Fibonacci.Calculate(depth);
+
+            Console.ReadLine();
         }
     }
 }

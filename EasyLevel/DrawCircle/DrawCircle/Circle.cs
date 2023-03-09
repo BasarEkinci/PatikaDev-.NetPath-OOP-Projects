@@ -10,7 +10,7 @@ namespace DrawCircle
     {
         public static void DrawCircle(int radius)
         {
-            double angle, x, y;
+            double x, y;
 
             for (y = radius; y >= -radius; --y)
             {
